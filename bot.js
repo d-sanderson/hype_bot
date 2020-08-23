@@ -183,10 +183,8 @@ if(!err) {
 });
 }
 
-postTweet();
-
 function callFunctionWithDelay(fn, ms) {
   setInterval(fn, ms);
 }
 
-callFunctionWithDelay(postTweet, 10800000)
+callFunctionWithDelay(postTweet, 60000)
